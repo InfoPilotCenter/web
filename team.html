@@ -1,0 +1,178 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Free Snow Bootstrap Website Template | Team :: w3layouts</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+                        
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+     <!-- Add fancyBox main JS and CSS files -->
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+		<script>
+			$(document).ready(function() {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+			});
+		});
+		</script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="logo">
+						<a href="index.html"><img src="images/Logo tecsup.png" alt=""/></a>
+					 </div>
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+						    	<li><a href="shop.html">Chancado</a></li>
+						    	<li class="current"><a href="team.html">Molienda</a></li>
+						    	<li><a href="experiance.html">Flotación</a></li>
+								<li><a href="contact.html">Espesamiento</a></li>								
+								<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>							
+	    		    <div class="clear"></div>
+	    	    </div>
+	      </div>
+		 </div>
+	    </div>
+	  </div>
+     <div class="main">
+      <div class="shop_top">
+		<div class="container">
+			<div class="row team_box">
+				<h3 class="m_2">Área de Molienda</h3>
+				<div class="col-md-3 team1">
+				  <a class="popup-with-zoom-anim" href="#small-dialog3"><img src="images/MoBolas1.jpg" class="img-responsive" title="continue" alt=""/></a>
+				    <div id="small-dialog3" class="mfp-hide">
+					   <div class="pop_up2">
+					   	 <h2>Descripción Molino de Bolas</h2>
+						 <p>El molino es cilíndrico rotatorio horizontal forrado interiormente con material resistente, cargado en un 40-50% de su volumen con bolas de acero. dentro de esta masa rotatoria de ejes y bolas, se alimenta continuamente el mineral fresco proveniente de la etapa de chancado, la carga de retorno o carga circulante del hidrociclón y agua suficiente para formar la masa de mineral de una plasticidad adecuada, de manera que la mezcla fluya bajo una ligera cabeza hidráulica, hacia el extremo de descarga del molino.</p>
+						 <p>El molino de bolas de la planta piloto tecsup es alimentada por la tolva de finos. el mineral es transportado mediante fajas desde la etapa de chancado pasando por 2 chancadoras en el que el mineral es almacenado en la tolva de finos para continuar con el proceso de molienda.</p>
+					   </div>
+					</div>
+					<h4 class="m_5"><a href="#">Molino de Bolas</a></h4>
+				    <p class="m_6">Equipo de Área de Molienda</p>
+				</div>
+				<div class="col-md-3 team1">
+				  <a class="popup-with-zoom-anim" href="#small-dialog3"><img src="images/Bomba2.jpg" class="img-responsive" title="continue" alt=""/></a>
+				    <div id="small-dialog3" class="mfp-hide">
+					   <div class="pop_up2">
+					   	 <h2>Descripción Bomba Centrífuga</h2>
+						 <p>Tienen como objeto transportar la pulpa de un lugar bajo a otro más alto en forma rápida, segura y limpia. con el fin que la planta no paralice las operaciones de trabajo por falta de una bomba, se deben instalar las bombas por pares. cada bomba debe tener su repuesto, que debe estar siempre en buenas condiciones de funcionamiento stand by.</p>
+						 <p>El eje de la bomba está unido al impulsor, hace que éste toma un movimiento de rotación y al entrar la carga, el impulsor empuja la carga contra las paredes de la caja de la bomba (hace dar vuelta a la carga), haciendo que salga por la tubería de salida.</p>
+					   </div>
+					</div>
+					<h4 class="m_5"><a href="#">Bomba Centrífuga</a></h4>
+				    <p class="m_6">Equipo de Área de Molienda</p>
+				</div>
+				<div class="col-md-3 team1">
+					<a class="popup-with-zoom-anim" href="#small-dialog3"><img src="images/Hidrociclon3.jpg" class="img-responsive" title="continue" alt=""/></a>
+				    <div id="small-dialog3" class="mfp-hide">
+					   <div class="pop_up2">
+					   	 <h2>Hidrociclón</h2>
+						 <p>Son aparatos estáticos que separan por tamaños los sólidos de una pulpa utilizando fuerzas centrífugas a una determinada presión ya sea bombeada o por gravedad. las principales ventajas que ofrece son su fácil fabricación, su gran capacidad respecto al espacio que ocupa y su bajo costo de fabricación y mantenimiento comparados con los clasificadores mecánicos.</p>
+						 <p>Un hidrociclón se especifica por el diámetro de la cámara cilíndrica de alimentación, siendo las dimensiones restantes funciones de esta magnitud flujos que originan la separación partículas en el hidrociclón: flujo inferior (torbellino primario) la alimentación que ingresa al ciclón origina un flujo pegado a la pared interna de la sección cilíndrica y cónica dirigida hacia el vértice inferior (ápex) para salir al exterior arrastrando las partículas gruesas flujo superior (torbellino secundario) se origina por una gran cantidad del líquido que asciende por el núcleo central y que es forzado a salir del ciclón por el vórtex arrastrando las partículas finas. el núcleo central es formado por el torbellino primario.</p>
+					   </div>
+					</div>
+					<h4 class="m_5"><a href="#">Hidrociclón</a></h4>
+				    <p class="m_6">Equipo de Área de Molienda</p>
+				</div>
+				<div class="col-md-3 team1">
+					<a class="popup-with-zoom-anim" href="#small-dialog3"><img src="images/TolvaFi4.jpg" class="img-responsive" title="continue" alt=""/></a>
+				    <div id="small-dialog3" class="mfp-hide">
+					   <div class="pop_up2">
+					   	 <h2>aaaaaLorem ipsum </h2>
+						 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie.</p>
+						 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie.</p>
+					   </div>
+					</div>
+					<h4 class="m_5"><a href="#">Tolva de Finos</a></h4>
+				    <p class="m_6">Equipo de Área de Molienda</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 team_bottom">
+				  <ul class="team_list">
+					<h4>Variables</h4>
+		            <li><a href="#">Carga de Mineral</a><p>La cantidad de carga que se alimenta al molino debe ser controlada, procurando que la carga sea lo máximo posible. si se alimenta poca carga se pierde capacidad de molienda y se gasta inútilmente bolas y chaquetas. si se alimenta demasiada carga se sobrecarga el molino y al descargarlo se pierde tiempo y capacidad de molienda. Si la densidad de la descarga del molino es elevada se debe a un exceso de carga o poca agua. si la densidad está por debajo de lo normal, se debe a la deficiencia de carga o exceso de agua.</p></li>
+		            <li><a href="#">Suministro de Agua</a><p>La dosificación de agua a los molinos se controla mediante la densidad de pulpa en la descarga del mismo. Cuando el mineral y el agua ingresan al molino, en su interior, forman un barro liviano que tiene tendencia de pegarse a las bolas, por otro lado, el agua ayuda a avanzar a la carga en el interior del molino.Cuando la cantidad de agua suministrada es excesiva, lava la superficie de las bolas haciendo que estas se golpeen entre sí y no muelen al mineral, ya que la molienda se produce cuando el barro adherido a su superficie es atrapado entre las bolas el exceso de agua disminuye el tiempo de permanencia del mineral en el interior del molino, haciendo que la carga salga rápidamente y con granulometría gruesa. Cuando la cantidad de agua es deficiente, la carga avanza lentamente y el barro se vuelve muy espeso, amortigua el golpe entre las bolas y no produce buena molienda.</p></li>
+		            <li><a href="#">Carga de Bolas</a><p>Es necesario que el molino siempre tenga su carga normal de medios moledores. el consumo de bolas se debe a la dureza del mineral, tamaño de mineral alimentado y la finura que se desea obtener en la molienda. Cuando el molino tiene exceso de bolas se disminuye la capacidad del molino, ya que estas ocupan el espacio para la carga. Cuando la carga de bolas está por debajo de lo normal, se pierde capacidad moledora porque habrá dificultad para llevar el mineral a la granulometría deseada.</p></li>
+		            <li><a href="#">Tiempo de Molienda</a><p>La permanencia del mineral dentro del molino determina el grado de finura de las partículas liberadas. el grado de finura está en relación directa con el tiempo de permanencia en el interior del molino, pero el tonelaje de mineral tratado disminuirá si es demasiado prolongado. el tiempo de permanencia se regula por medio de la cantidad de agua añadida al molino.</p></li>
+		          </ul>
+				</div>
+				<div class="col-md-8">
+					<ul class="team_list">
+					 <h4>Introducción</h4>
+					 <p class="m_7">La liberación de un mineral se inicia con el chancado y termina con la molienda; esta es muy importante porque de él depende el tonelaje y la liberación del mineral valioso que después debe concentrarse. en esta etapa debe liberarse completamente las partes valiosas del mineral (sulfuros y/o óxidos) de la ganga, antes de proceder a la concentración la operación de molienda normalmente se efectúa en etapa primaria en los molinos de barras y secundaria en los de bolas. esta operación se logra con alta eficiencia cuando los molinos son operados en condiciones normales en cuanto a uniformidad del tamaño de alimentación, dilución, velocidad crítica de operación, nivel de bolas y de potencia de motor aceptables. cuanto más fino se muele el mineral, mayor es el costo de molienda y hasta cierto grado, una molienda más fina conlleva a una mejora en la recuperación de valores. de acuerdo a esto la molienda óptima es aquella malla de molienda en el cual los beneficios son máximos, cuando se considera tanto el costo de energía.</p>
+		             <h4>Procedimiento de Operación</h4>
+					 <p class="m_7">Para arrancar la etapa de molienda se necesita habilitar algunas llaves y líneas de agua ya que este proceso tiende a trabajar con agua, esto para su acondicionamiento y leugo recién recibir la carga del mineral.</p>
+					 <p class="m_7">1.	Abrir la válvula 1 m para alimentar agua por la línea 2 lm que trae agua de 1lm.</p>
+					 <p class="m_7">2.	La línea 1 lm conduce agua a las líneas 5 lm y 4ml mediante la línea 3lm.</p>
+					 <p class="m_7">3.	La línea 5 lm alimenta agua mediante la válvula 3m que tiene que estar abierta ¾ para alimentar al trommel.</p>
+					 <p class="m_7">4.	La línea 4 lm conduce agua al cajón distribuidor para lo cual se tiene que abrir ¾ de la válvula 2m.</p>
+					 <p class="m_7">5.	Luego de tener alimentación en el cajón distribuidor de agua pasar a abrir la válvula 4 m hasta las ¾ para alimentar de agua la línea 6 lm que alimentara la bomba centrifuga que cumple la función de bombear agua por la línea 7 lm hacia el hidrociclón.</p>
+					 <h4>Flowsheet del Área de Molienda</h4>
+					 <img src="images/FlowMolino.png" class="img-responsive" alt=""/>
+		          </ul>
+				</div>
+			</div>
+		</div>
+	   </div>
+	  </div>
+</body>	
+</html>
